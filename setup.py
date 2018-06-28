@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='PyAIHW',
-    version='0.3',
+    version='0.4',
     license='',
     long_description=open('README.txt').read(),
     packages = ['pyaihw',],
