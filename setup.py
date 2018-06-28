@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='PyAIHW',
-    version='0.2dev',
+    version='0.3',
     license='',
     long_description=open('README.txt').read(),
     packages = ['src',],
@@ -13,6 +13,6 @@ setup(
         'src': ['data/*.txt'],
     },
     install_requires=[
-        "tqdm"
+        'tqdm'
     ]
 )
