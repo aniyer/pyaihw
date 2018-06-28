@@ -5,12 +5,12 @@ setup(
     version='0.3',
     license='',
     long_description=open('README.txt').read(),
-    packages = ['src',],
+    packages = ['pyaihw',],
     package_data = {
         # include all python source code
         '': ['*.py'],
         # include any datafiles
-        'src': ['data/*.txt'],
+        'pyaihw': ['data/*.txt'],
     },
     install_requires=[
         'tqdm'
