@@ -11,5 +11,8 @@ setup(
         '': ['*.py'],
         # include any datafiles
         'src': ['data/*.txt'],
-    }
+    },
+    install_requires=[
+        "sample-app"
+    ]
 )
