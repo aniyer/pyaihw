@@ -13,6 +13,6 @@ setup(
         'src': ['data/*.txt'],
     },
     install_requires=[
-        "sample-app"
+        "tqdm"
     ]
 )
